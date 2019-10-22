@@ -1,0 +1,65 @@
+ 1515  mkdir week6
+ 1519  cd week6
+ 1521  mkdir code
+ 1522  cd code
+ 1523  mkdir staticlib
+ 1524  cd staticlib/
+ 1540  pluma mylib.h
+ 1551  pluma aoprand.c
+ 1552  pluma base.c
+ 1553  gcc -c aoprand.c base.c 
+ 1557  ar -rc libsttest.a aoprand.o base.o
+ 1559  pluma main.c
+ 1565  gcc -o main.o -c main.c -I./mylib.h
+ 1568  gcc -o main main.o -L./ -lsttest
+
+//下面我是用了fun1.c中的随机产生数组,可自己定义数组
+//从下面也可得知,总共其实就4步,也可把最后两步合并成一步
+//这个gcc -o localstaticmain main.c -L. -lsttest -I.
+ 1569  gcc -c aoprand.c base.c fun1.c
+ 1570  ar -rc libsttest.a aoprand.o base.o fun1.o
+ 1571  gcc -o main.o -c main.c -I./mylib.h
+ 1572  gcc -o localstaticmain main.o -L./ -lsttest
+
+ 1574  ./main
+ 1575  rm -f *.o
+
+//下面是给main重新弄过,想着不要和别的地方混淆了,其实可以直接重命名的
+ 1589  gcc -o main.o -c main.c
+ 1590  gcc -o localstaticmain main.o -L./ -lsttest
+
+ 1596  cd ..
+ 1598  mkdir dynamiclib
+ 1599  mkdir exam
+ 1601  cd staticlib/
+ 1603  cp ./* ../dynamiclib/			-----这里是直接把代码复制过来,省得再打
+
+ 1619  rm -r localstaticmain			------不属于这里的 一切抹除
+ 1620  rm -r libsttest.a
+
+ 1621  cp ../staticlib/main.c ../exam/staticmain.c
+ 1622  cd ../exam/
+ 1626  gcc -o remotestaticmain staticmain.c -L../staticlib/ -lsttest -I../staticlib/
+ 1627  ./remotestaticmain
+
+/////开始动态链接的隐式调用
+ 1682  cd ../dynamiclib/
+ 1688  gcc -shared -fPIC -o libdytest.so aoprand.c base.c fun1.c     -----加fun1.c的原因在上面
+ 1690  gcc -o localdytest main.c ./libdytest.so
+ 1692  ./localdytest 
+
+ 1694  cp main.c ../exam/dynamicmain.c
+ 1696  cd ../exam/
+ 1701  gcc -o remotedynamicmain dynamicmain.c ../dynamiclib/libdytest.so -I../dynamiclib/
+ 1702  ./remotedynamicmain 
+
+//下面是动态链接的显示调用
+ 1719  cd ../dynamiclib/
+ 1721  cp ./main.c ./explicitMain.c 
+ 1722  pluma explicitMain.c 
+ 1734  gcc -o explicitMaintest explicitMain.c -ldl
+ 1736  ./explicitMaintest 
+
+//试玩ldd指令
+ 1706  ldd remotedynamicmain 
+ 1707  ldd remotestaticmain 

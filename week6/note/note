@@ -1,0 +1,16 @@
+静态库:
+  静态库创建：
+	ar -rc libxxx.a *.o       ------xxx为静态库的名称  *.o代表可以加多个.o文件
+		-c create的意思
+		-r replace的意思
+  静态库使用：
+	gcc main.c -o main.c -L./ -lxxx -I./    -------xxx为库名
+		-I参数后加上静态库头文件的路径。
+		-L参数后加上库文件所在目录
+		-l参数后加上库文件名，但是要去掉lib和.a扩展名
+动态库:
+  动态库创建：
+	gcc -fPIC -shared -o libxxx.so *.c       ------*.c代表可以加多个.c文件
+  动态库使用：
+	  显式调用：在主程序里使用dlopen、dlsym、dlerror、dlclose等系统函数，头文件为fcntl.h
+	  隐式调用：gcc main.c -o main ./libxxx.so

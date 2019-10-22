@@ -1,0 +1,1000 @@
+  747  make
+  748  make clean
+  749  ls
+  750  ./proj1 
+  751  pluma
+  752  make
+  753  make clean
+  754  ./proj1 
+  755  pluma 
+  756  make
+  757  pluma 
+  758  make
+  759  pluma 
+  760  make
+  761  make clean
+  762  ./proj1 
+  763  cd ..
+  764  cd tmp
+  765  ls
+  766  mkdir 2019.9.19-test
+  767  ls
+  768  cd 2019.9.19-test/
+  769  pluma
+  770  ls
+  771  gcc copyfile-test.cpp -g -o copyfile-test
+  772  pluma copyfile-test.cpp 
+  773  gcc copyfile-test.cpp -g -o copyfile-test
+  774  ls
+  775  ./copyfile-test /home/rlk/2019.9.16/makefile /home/rlk/2019.9.19/testfile
+  776  ls
+  777  ./copyfile-test /home/rlk/2019.9.16/makefile /home/rlk/2019.9.19-test/testfile
+  778  ls
+  779  cat testfile
+  780  pluma copyfile-test.cpp 
+  781  gcc copyfile-test.cpp -g -o copyfile-test
+  782  ./copyfile-test /home/rlk/2019.9.16/makefile /home/rlk/2019.9.19-test/testfile
+  783  cat testfile
+  784  pluma copyfile-test.cpp 
+  785  gcc copyfile-test.cpp -g -o copyfile-test
+  786  ./copyfile-test /home/rlk/2019.9.16/makefile /home/rlk/2019.9.19-test/testfile
+  787  cat testfile 
+  788  ls
+  789  cd ..
+  790  ls
+  791  cd 2019.9.16
+  792  ls
+  793  cat fun3.c
+  794  cat fun2.c
+  795  cat main.c
+  796  cat fun1.c
+  797  pluma
+  798  ls
+  799  make
+  800  pluma fun4.c
+  801  pluma uhead.c
+  802  ls
+  803  pluma uhead.h
+  804  make
+  805  pluma uhead.h
+  806  make
+  807  pluma uhead.h
+  808  pluma fun4.c
+  809  make
+  810  pluma fun4.c
+  811  make
+  812  clean
+  813  make clean
+  814  ls
+  815  make
+  816  make clean
+  817  ls
+  818  ./proj1 
+  819  ls
+  820  cat a.txt
+  821  pluma a.txt
+  822  cat b.txt
+  823  pluma b.txt
+  824  pluma fun4.c
+  825  make
+  826  make clean
+  827  ./proj1 
+  828  ls
+  829  cat a.txt
+  830  cat b.txt
+  831  pluma fun4.c
+  832  make
+  833  pluma fun4.c
+  834  make
+  835  make clean
+  836  ./proj1 
+  837  ls
+  838  cat a.txt
+  839  cat b.txt
+  840  pluma
+  841  make
+  842  make clean
+  843  ls
+  844  ./proj1 
+  845  pluma
+  846  make
+  847  make clean
+  848  ls
+  849  ./proj1 
+  850  pluma
+  851  make
+  852  make clean
+  853  ./proj1 
+  854  pluma
+  855  make
+  856  pluma
+  857  make
+  858  pluma
+  859  make
+  860  make clean
+  861  make
+  862  make clean
+  863  ls
+  864  ./proj1 
+  865  cat a.txt
+  866  gedit a.txt
+  867  gedit fun4.c
+  868  ls
+  869  cd ..
+  870  ls
+  871  mkdir 2019.9.23
+  872  cd 2019.9.23
+  873  pluma
+  874  gcc -g 1.4.4.c -o 1.4.4
+  875  pluma
+  876  gcc -g 1.4.4.c -o 1.4.4
+  877  err_sys
+  878  man err_sys
+  879  pluma
+  880  ls
+  881  gcc 1.4.4.c -o a.out
+  882  ls
+  883  ./a.out temp.txt
+  884  ls
+  885  cat file.hole 
+  886  ls -l file.hole 
+  887  od -c file.hole 
+  888  cat 1.4.4.c 
+  889  ls
+  890  pluma
+  891  ls
+  892  gcc cp1.4.4.c.c -o cp1.4.4.c
+  893  pluma
+  894  gcc cp1.4.4.c.c -o cp1.4.4.c
+  895  ls
+  896  ./cp1.4.4.c 
+  897  ls
+  898  cat tempcp1.4.4.c.c 
+  899  git
+  900  git config
+  901  ls
+  902  cd ..
+  903  pwd
+  904  ls
+  905  mkdir gitwarehouse
+  906  ls
+  907  cd gitwarehouse/
+  908  git config --global user.name Shade
+  909  git config --global user.email 1076160305@qq.com
+  910  sudo adduser git
+  911  pwd
+  912  cd ..
+  913  ls
+  914  cd ..
+  915  ls
+  916  cd git
+  917  ls
+  918  ls -l
+  919  su git
+  920  $ sudo gedit /etc/ssh/sshd_config
+  921  $ sudo pluma /etc/ssh/sshd_config
+  922  $ sudo vim /etc/ssh/sshd_config
+  923  cd ..
+  924  ls
+  925  $ sudo vim /etc/ssh/sshd_config
+  926  sudo vim /etc/ssh/sshd_config
+  927  pwd
+  928  ls
+  929  cd ..
+  930  ls
+  931  cd etc
+  932  ls
+  933  cd ssh
+  934  ls
+  935  cat ssh_config
+  936  gedit ssh_config 
+  937  su root
+  938  ls -l
+  939  chmod ssh_config 0666
+  940  chmod 0666 ssh_config
+  941  sudo chmod 0666 ssh_config
+  942  ls -l
+  943  gedit ssh_config 
+  944  sudo chmod 0644 ssh_config
+  945  ls -l
+  946  ssh-keygen
+  947  pwd
+  948  cd /etc/home
+  949  cd ..
+  950  ls
+  951  cd ..
+  952  ls
+  953  cd home
+  954  ls
+  955  cd rlk
+  956  ls
+  957  ls -l
+  958  su git
+  959  pwd
+  960  cd ..
+  961  ls
+  962  su git
+  963  cd /
+  964  ls
+  965  cd .ssh
+  966  find .ssg
+  967  find .ssh
+  968  find bin
+  969  tree bin
+  970  ls
+  971  pwd
+  972  su git
+  973  sudo shutdown -0
+  974  sudo shutdown 0
+  975  ls
+  976  cd 2019.9.23
+  977  ls
+  978  cat myhead.h
+  979  cp myhead.h ../2019.9.24/
+  980  cd ../2019.9.24
+  981  ls
+  982  ls
+  983  mkdir 2019.9.24
+  984  cd 2019.9.24
+  985  pluma 3-4.c
+  986  pluma 3-5.c
+  987  gcc 3-4.c -o 3-4
+  988  pluma 3-4.c
+  989  gcc 3-4.c -o 3-4
+  990  gcc 3-5.c -o 3-5
+  991  pluma 3-5.c
+  992  gcc 3-5.c -o 3-5
+  993  ls
+  994  ./3-4
+  995  cp 3-5.c test.c
+  996  ls
+  997  a.out 0 < test.c
+  998  ./3-4 test.c
+  999  mount
+ 1000  ./vmware-install.pl
+ 1001  ls
+ 1002  ./vmware-config-tools.pl 
+ 1003  sudo ./vmware-config-tools.pl 
+ 1004  su git
+ 1005  pluma 3-6.c
+ 1006  gcc -g 3-6.c -o 3-6
+ 1007  pluma 3-6.c
+ 1008  gcc -g 3-6.c -o 3-6
+ 1009  pluma 3-6.c
+ 1010  gcc -g 3-6.c -o 3-6
+ 1011  ./3-6
+ 1012  ls
+ 1013  ./3-6 
+ 1014  pluma lseek
+ 1015  ./3-6 
+ 1016  cd
+ 1017  ls -all
+ 1018  ls
+ 1019  cd .ssh
+ 1020  cd
+ 1021  cd .ssh
+ 1022  ls
+ 1023  cd 
+ 1024  cd linux-work/
+ 1025  ls
+ 1026  cd 
+ 1027  git branch
+ 1028  cd linux-work/
+ 1029  git branch
+ 1030  cd
+ 1031  git branch
+ 1032  cd linux-work/
+ 1033  git branch
+ 1034  git checkout master
+ 1035  git branch
+ 1036  git branch -d test1
+ 1037  git branch -d test2
+ 1038  cd
+ 1039  mkdir linux-work-test
+ 1040  cd linux-work-test/
+ 1041  git clone https://github.com/Shade-z/linux-work
+ 1042  ls
+ 1043  cp 2019.9.19-test /home/git/Desktop/
+ 1044  cp 2019.9.19-test /home/git/
+ 1045  cp -r 2019.9.19-test /home/git/
+ 1046  sudo cp 2019.9.19-test /home/git/
+ 1047  git init
+ 1048  git add 2019.9.19-test
+ 1049  git --global user.name "Shade-z"
+ 1050  git config --global user.name "Shade-z"
+ 1051  git config --global user.email "1076160305@qq.com"
+ 1052  ssh-keygen
+ 1053  cd .git
+ 1054  ls
+ 1055  cd ..
+ 1056  cd .ssh
+ 1057  ls
+ 1058  cat id_rsa.pub 
+ 1059  git commit -m "2019.9.19-test"
+ 1060  git remote add origin https://github.com/Shade-z/linux-work.git
+ 1061  git push -u origin master
+ 1062  cd ..
+ 1063  git push -u origin master
+ 1064  git pull origin master
+ 1065  git push -u origin master
+ 1066  git pull --rebase origin master
+ 1067  git push -u origin master
+ 1068  git pull --rebase origin master
+ 1069  git clone https://github.com/Shade-z/linux-work.git
+ 1070  ls
+ 1071  cd linux-work/
+ 1072  ls
+ 1073  git add 2019.9.23
+ 1074  git status
+ 1075  git reset HEAD
+ 1076  git status
+ 1077  git add .
+ 1078  git status
+ 1079  git commit -m "2019-9-30"
+ 1080  git remote add origin https://github.com/Shade-z/linux-work.git
+ 1081  git pull origin master
+ 1082  git push -u origin master
+ 1083  ssh -T git @github.com
+ 1084  git show
+ 1085  git log
+ 1086  git reflog
+ 1087  git bransh
+ 1088  git branch
+ 1089  git config --global --list
+ 1090  git config --loval --list
+ 1091  git config --local --list
+ 1092  git config --global --list
+ 1093  git config --system --list
+ 1094  git branch
+ 1095  git checkout -test
+ 1096  git checkout -b test
+ 1097  git branch
+ 1098  git branch test
+ 1099  git branch
+ 1100  git branch master
+ 1101  git branch
+ 1102  git branch -d test
+ 1103  git branch
+ 1104  git config --system --list
+ 1105  git config --global --list
+ 1106  git config --local --list
+ 1107  ls -all
+ 1108  git branch -r
+ 1109  git branch -a
+ 1110  git checkout master
+ 1111  git branch -a
+ 1112  git stash list
+ 1113  cd .ssh
+ 1114  git branch
+ 1115  git branch -d test
+ 1116  git branch test1
+ 1117  git branch test2
+ 1118  git branch
+ 1119  git merge test1 test2
+ 1120  git branch
+ 1121  git branch -d test1
+ 1122  git branch -d test2
+ 1123  git branch
+ 1124  git branch test1
+ 1125  git branch test2
+ 1126  git branch -a
+ 1127  git checkout test1
+ 1128  git config --global --list
+ 1129  git config --list
+ 1130  git remote
+ 1131  git remote -v
+ 1132  ls
+ 1133  cd linux-work-test/
+ 1134  ls
+ 1135  git clone https://github.com/Shade-z/linux-work
+ 1136  ls
+ 1137  git branch
+ 1138  git branch new1
+ 1139  git branch
+ 1140  git branch new2
+ 1141  git checkout new1
+ 1142  ls
+ 1143  cd linux-work/
+ 1144  ls
+ 1145  git branch
+ 1146  rm Desktop
+ 1147  cd
+ 1148  ls
+ 1149  pwd
+ 1150  cd linux-work-test/linux-work/
+ 1151  ls
+ 1152  pwd
+ 1153  cd ..
+ 1154  cd linux-work/
+ 1155  ls
+ 1156  pwd
+ 1157  cd ..
+ 1158  git branch
+ 1159  mkdir new1
+ 1160  mkdir new2
+ 1161  cd new1
+ 1162  pwd
+ 1163  pluma 1.txt
+ 1164  pluma 2.txt
+ 1165  cd ..
+ 1166  cd new2
+ 1167  pluma 1.txt
+ 1168  cd ..
+ 1169  git branch new
+ 1170  git checkout new
+ 1171  git merge new1
+ 1172  git merge new2
+ 1173  ls
+ 1174  git branch
+ 1175  git branch -d new1
+ 1176  git branch -d new2
+ 1177  ls
+ 1178  git push origin HEAD -u
+ 1179  git branch new1
+ 1180  git branch new
+ 1181  git branch new2
+ 1182  git push origin HEAD -u
+ 1183  git branch
+ 1184  git checkout new1
+ 1185  git push origin HEAD -u
+ 1186  git add ./new1
+ 1187  git commit -m "new1-test"
+ 1188  git remote
+ 1189  git pull origin master
+ 1190  git push origin master
+ 1191  git push origin master -u
+ 1192  git pull origin new1
+ 1193  git push origin new1
+ 1194  ls
+ 1195  cd linux-work/
+ 1196  ls
+ 1197  git status
+ 1198  history
+ 1199  git checkout new2
+ 1200  pwd
+ 1201  cd ..
+ 1202  git checkout new2
+ 1203  git add ./new2
+ 1204  git pull origin new2
+ 1205  git push HEAD -u
+ 1206  git push origin HEAD -u
+ 1207  git pull origin new2
+ 1208  git add ./new2
+ 1209  git commit -m "new2-test"
+ 1210  git push origin new2
+ 1211  git checkout new
+ 1212  git branch
+ 1213  git merge new1
+ 1214  git merge new2
+ 1215  git push origin new
+ 1216  git branch -d new1
+ 1217  git branch -d new2
+ 1218  git checkout master
+ 1219  git push origin HEAD -u
+ 1220  git pull origin master
+ 1221  git push origin HEAD -u
+ 1222  git branch
+ 1223  history
+ 1224  git branch
+ 1225  git push origin HEAD -u
+ 1226  ls
+ 1227  pluma code-test
+ 1228  ls
+ 1229  pluma code-test
+ 1230  ls
+ 1231  cd linux-work-test/
+ 1232  ls
+ 1233  git branch
+ 1234  ls
+ 1235  cd linux-work/
+ 1236  ls
+ 1237  cd ..
+ 1238  ls
+ 1239  git log --oneline
+ 1240  git branch
+ 1241  git checkout new
+ 1242  git log --oneline
+ 1243  git push origin --delete new1
+ 1244  git push origin --delete new2
+ 1245  git push origin --delete new
+ 1246  ls
+ 1247  git branch
+ 1248  ls
+ 1249  git checkout master
+ 1250  ls
+ 1251  cd ..
+ 1252  cd linux-work-test/
+ 1253  ls
+ 1254  ls -all
+ 1255  git checkout new
+ 1256  git branch
+ 1257  ls
+ 1258  git checkout master
+ 1259  ls -all
+ 1260  git checkout new
+ 1261  ls
+ 1262  ls -all
+ 1263  pwd
+ 1264  git checkout master
+ 1265  ls -all
+ 1266  pwd
+ 1267  cd ..
+ 1268  mkdir linux-work-test2
+ 1269  cd linux-work-test2
+ 1270  ls
+ 1271  git clone https://github.com/Shade-z/linux-work
+ 1272  ls
+ 1273  git branch
+ 1274  git checkout new
+ 1275  ls
+ 1276  cd ..
+ 1277  cd linux-work-t
+ 1278  cd linux-work-test
+ 1279  ls
+ 1280  cd new1
+ 1281  ls
+ 1282  cd ..
+ 1283  git checkout master
+ 1284  git branch -d new
+ 1285  git branch -D new
+ 1286  git branch
+ 1287  git branch new
+ 1288  git branch -d new
+ 1289  git checkout new
+ 1290  cd ..
+ 1291  ls
+ 1292  rm linux-work-test2
+ 1293  rm -rf linux-work-test2
+ 1294  ls
+ 1295  rm -rf linux-work-test
+ 1296  mkdir linux-work
+ 1297  mkdir linux-work-test
+ 1298  cd linux-work-test/
+ 1299  git clone https://github.com/Shade-z/linux-work
+ 1300  git branch new1
+ 1301  git branch new2
+ 1302  git branch new
+ 1303  mkdir new1
+ 1304  mkdir new2
+ 1305  cd new1
+ 1306  pluma 1.txt
+ 1307  pluma 2.txt
+ 1308  git config --list
+ 1309  cd ..
+ 1310  cd new2
+ 1311  pluma 1.txt
+ 1312  cd ..
+ 1313  git branch
+ 1314  git checkout new1
+ 1315  git add ./new1
+ 1316  git commit -m "new1-test"
+ 1317  git checkout new2
+ 1318  git add ./new2
+ 1319  git commit -m "new2-test"
+ 1320  git checkout new
+ 1321  git merge new1
+ 1322  git merge new2
+ 1323  git branch
+ 1324  git branch -d new1
+ 1325  git branch -d new2
+ 1326  ls
+ 1327  git status
+ 1328  git branch
+ 1329  git checkout master
+ 1330  git branch -d new
+ 1331  git branch -D new
+ 1332  cd linux-work
+ 1333  cd ..
+ 1334  cd linux-work-test/
+ 1335  ls
+ 1336  pluma 1.txt
+ 1337  pluma 2.txt
+ 1338  git
+ 1339  git help everyday
+ 1340  git config --global --list
+ 1341  ls
+ 1342  cd linux-work-test/
+ 1343  ls
+ 1344  cd linux-work/
+ 1345  ls
+ 1346  tree
+ 1347  cd 2019.9.16/
+ 1348  ls
+ 1349  cd ..
+ 1350  ls
+ 1351  pwd
+ 1352  cd ..
+ 1353  ls
+ 1354  git branch
+ 1355  git config -e
+ 1356  ls
+ 1357  cd linux-work/
+ 1358  cd 2019.9.16
+ 1359  ls
+ 1360  cat fun2.c
+ 1361  cat fun3.c
+ 1362  cat main.c
+ 1363  cd ..
+ 1364  ls
+ 1365  git config -e
+ 1366  ls
+ 1367  git branch
+ 1368  git branch new1
+ 1369  git branch new2
+ 1370  git branch
+ 1371  git branch new
+ 1372  git checkout new1
+ 1373  ls
+ 1374  pluma 1.txt
+ 1375  pluma 2.txt
+ 1376  git add 1.txt 2.txt
+ 1377  git commit -m "new1-commit"
+ 1378  git checkout new2
+ 1379  cd linux-work/
+ 1380  pluma 1.txt
+ 1381  cd ..
+ 1382  ls
+ 1383  git add ./linux-work/1.txt
+ 1384  git commit -m "new2-commit"
+ 1385  git branch new
+ 1386  git checkout new
+ 1387  git merge new1
+ 1388  git merge new2
+ 1389  git push origin new
+ 1390  git push origin --delete new
+ 1391  git branch -d new1
+ 1392  git branch -d new2
+ 1393  git branch -d new
+ 1394  git checkout master
+ 1395  git branch -d new
+ 1396  git branch -D new
+ 1397  git branch
+ 1398  ls
+ 1399  cd linux-work/
+ 1400  ls
+ 1401  cd ..
+ 1402  l
+ 1403  git branch new1
+ 1404  git branch new2
+ 1405  git branch new
+ 1406  git checkout new1
+ 1407  git add 1.txt 2.txt
+ 1408  git commit -m "new1-commit"
+ 1409  git checkout new2
+ 1410  git add 1.txt
+ 1411  ls
+ 1412  pluma 1.txt
+ 1413  git add 1.txt
+ 1414  git commit -m "new2-commit"
+ 1415  git checkout new
+ 1416  git merge new1
+ 1417  git merge new2
+ 1418  git merge new2 -append
+ 1419  git status
+ 1420  cat 1.txt
+ 1421  ls
+ 1422  pluma 1.txxt
+ 1423  pluma 1.txt
+ 1424  git checkout new2
+ 1425  ls
+ 1426  git reset
+ 1427  ls
+ 1428  git checkout new2
+ 1429  git reset
+ 1430  git status
+ 1431  git commit -m "new-commit"
+ 1432  ls
+ 1433  git checkout new1
+ 1434  git checkout new2
+ 1435  git commit -m "new-commit"
+ 1436  git checkout master
+ 1437  git branch
+ 1438  git branch -D new2
+ 1439  git branch -D new
+ 1440  git checkout master
+ 1441  git commit -m "adf"
+ 1442  ls
+ 1443  git add 1.txt
+ 1444  git commit -m "adf"
+ 1445  git checkout master
+ 1446  git branch -D new1
+ 1447  ls
+ 1448  git branch
+ 1449  git branch 0-r
+ 1450  git pull origin master
+ 1451  git branch -r
+ 1452  git branch -a
+ 1453  git branch
+ 1454  git branch -d 0-r
+ 1455  git log
+ 1456  git branch new1
+ 1457  ls
+ 1458  git branch new2
+ 1459  git branch new
+ 1460  git checkout new1
+ 1461  ls
+ 1462  pluma 1.txt
+ 1463  pluma 2.txt
+ 1464  ls
+ 1465  git add 1.txt 2.txt
+ 1466  git commit -m "new1-commit"
+ 1467  git checkout new2
+ 1468  pluma 1.txt
+ 1469  git add 1.txt
+ 1470  git commit -m "new2-commit"
+ 1471  git checkout new
+ 1472  git merge new1
+ 1473  git merge new2
+ 1474  cat 1.txt
+ 1475  pluma 1.txt
+ 1476  git merge new2
+ 1477  git add 1.txt
+ 1478  git commit -m "new-fixed"
+ 1479  git status
+ 1480  ls
+ 1481  ls -all
+ 1482  git rm '../*'
+ 1483  git status
+ 1484  git reset
+ 1485  git rm '2019.9.19-test/*'
+ 1486  git status
+ 1487  git rm '../2019.9*'
+ 1488  git commit -m "after rm"
+ 1489  git status
+ 1490  git checkout master
+ 1491  git checkout new
+ 1492  git checkout master
+ 1493  git status
+ 1494  git branch
+ 1495  git branch -d new1
+ 1496  git branch -D new1
+ 1497  git branch -D new2
+ 1498  git branch -D new
+ 1499  git branch
+ 1500  git config
+ 1501  git config --global
+ 1502  git config --global --list
+ 1503  git config --local --list
+ 1504  cd ..
+ 1505  ls
+ 1506  ls -all
+ 1507  cd .ssh
+ 1508  cd ..
+ 1509  cd linux-work-test/
+ 1510  ls
+ 1511  git config -e
+ 1512  cd ../.ssh
+ 1513  cat id_rsa.pub
+ 1514  ls
+ 1515  mkdir week6
+ 1516  mkdir code
+ 1517  rm code
+ 1518  rm -r code
+ 1519  cd week6
+ 1520  ls
+ 1521  mkdir code
+ 1522  cd code
+ 1523  mkdir staticlib
+ 1524  cd staticlib/
+ 1525  pwd
+ 1526  pluma mylib.h
+ 1527  tree
+ 1528  cd ../../..
+ 1529  pwd
+ 1530  ls
+ 1531  cd week6
+ 1532  ls
+ 1533  cd code
+ 1534  ls
+ 1535  cd .
+ 1536  cd ..
+ 1537  ls
+ 1538  tree
+ 1539  cd code/staticlib/
+ 1540  pluma mylib.h
+ 1541  gcc
+ 1542  gcc -help
+ 1543  gcc -h
+ 1544  man gcc
+ 1545  ls
+ 1546  pwd
+ 1547  ls
+ 1548  cat mylib.h 
+ 1549  ls
+ 1550  pwd
+ 1551  pluma aoprand.c
+ 1552  ls
+ 1553  gcc -c aoprand.c base.c 
+ 1554  pluma aoprand.c 
+ 1555  gcc -c aoprand.c base.c 
+ 1556  ls
+ 1557  ar -rc libsttest.a aoprand.o base.o
+ 1558  ls
+ 1559  pluma main.c
+ 1560  ls
+ 1561  gcc -o main.o -c main.c
+ 1562  pluma main.c
+ 1563  gcc -o main.o -c main.c
+ 1564  ls
+ 1565  gcc -o main.o -c main.c -I./mylib.h
+ 1566  gcc -o main main.o -lsttest
+ 1567  ls
+ 1568  gcc -o main main.o -L./ -lsttest
+ 1569  gcc -c aoprand.c base.c fun1.c
+ 1570  ar -rc libsttest.a aoprand.o base.o fun1.o
+ 1571  ls
+ 1572  gcc -o main main.o -L./ -lsttest
+ 1573  ls
+ 1574  ./main
+ 1575  rm -f *.o
+ 1576  ls
+ 1577  cat main.c
+ 1578  pluma main.c
+ 1579  gcc -o main main.o -L./ -lsttest
+ 1580  gcc -o main.o -c main.c
+ 1581  ls
+ 1582  gcc -o main main.o -L./ -lsttest
+ 1583  ls
+ 1584  ./main
+ 1585  rm -f *.o
+ 1586  ls
+ 1587  pwd
+ 1588  gcc -o localmain main.o -L./ -lsttest
+ 1589  gcc -o main.o -c main.c
+ 1590  gcc -o localmain main.o -L./ -lsttest
+ 1591  ls
+ 1592  rm main
+ 1593  ls
+ 1594  rm -f *.o
+ 1595  ls
+ 1596  cd ..
+ 1597  ls
+ 1598  mkdir dynamiclib
+ 1599  mkdir exam
+ 1600  ls
+ 1601  cd staticlib/
+ 1602  ls
+ 1603  cp ./ ../dynamiclib/
+ 1604  ls
+ 1605  cd ..
+ 1606  cd dynamiclib/
+ 1607  ls
+ 1608  cd ..
+ 1609  cd staticlib/
+ 1610  cp ./* ../dynamiclib/
+ 1611  cd ../dynamiclib/
+ 1612  ls
+ 1613  rm localmain 
+ 1614  ls
+ 1615  rm -rf *
+ 1616  ls
+ 1617  cd ../staticlib/
+ 1618  ls
+ 1619  cp main.c ../dynamiclib/
+ 1620  cd ../dynamiclib/
+ 1621  ls
+ 1622  gcc -o remotemain main.c -L../staticlib/ -lsttest
+ 1623  gcc -o remotemain main.c -L../staticlib/ -lsttest -I../staticlib/
+ 1624  ls
+ 1625  ./remotemain 
+ 1626  gcc -o remotestaticmain main.c -L../staticlib/ -lsttest -I../staticlib/
+ 1627  ls
+ 1628  rm remotemain 
+ 1629  ls
+ 1630  cd ../staticlib/
+ 1631  ls
+ 1632  cp ./* ../dynamiclib/
+ 1633  cd ../dynamiclib/
+ 1634  ls
+ 1635  rm libsttest.a 
+ 1636  ls
+ 1637  cd ../staticlib/
+ 1638  ls
+ 1639  rm *
+ 1640  ls
+ 1641  cd ../staticlib/
+ 1642  ls
+ 1643  cp ./* ../dynamiclib/
+ 1644  cd ../dynamiclib/
+ 1645  ls
+ 1646  cd ..
+ 1647  ls
+ 1648  tree
+ 1649  cd dynamiclib/
+ 1650  cp ./* ../staticlib/
+ 1651  cd ..
+ 1652  tree
+ 1653  cd staticlib/
+ 1654  ls
+ 1655  rm remotestaticmain 
+ 1656  ls
+ 1657  gcc -o localstaticmain main.c -L. -lsttest -Imylib.h
+ 1658  gcc -o localstaticmain main.c -L. -lsttest -I.
+ 1659  ls
+ 1660  gcc -c aoprand.c base.c fun1.c 
+ 1661  ls
+ 1662  ar -rc libsttest.a aoprand.o base.o fun1.o
+ 1663  gcc -o localstaticmain main.c -L. -lsttest -I.
+ 1664  ls
+ 1665  rm *.o
+ 1666  rm localmain
+ 1667  ls
+ 1668  ./localstaticmain 
+ 1669  cd ../dynamiclib/
+ 1670  ls
+ 1671  cd ../exam/
+ 1672  ls
+ 1673  cd ../staticlib/
+ 1674  ls
+ 1675  cp main.c ../exam/staticmain.c
+ 1676  ls
+ 1677  cd ../exam/
+ 1678  ls
+ 1679  gcc -o remotestaticmain staticmain.c -L../staticlib/ -lsttest -I../staticlib/
+ 1680  ls
+ 1681  ./remotestaticmain 
+ 1682  cd ../dynamiclib/
+ 1683  ls
+ 1684  rm local*
+ 1685  ls
+ 1686  rm remotestaticmain 
+ 1687  ls
+ 1688  gcc -shared -fPIC -o libdytest.so aoprand.c base.c fun1.c
+ 1689  ls
+ 1690  gcc -o localdytest main.c ./libdytest.so 
+ 1691  ls
+ 1692  ./localdytest 
+ 1693  ./libdytest.so 
+ 1694  cp main.c ../exam/dynamicmain.c
+ 1695  cd ../staticlib/
+ 1696  cd ../exam/
+ 1697  ls
+ 1698  gcc -o remotedytest dynamicmain.c ../dynamiclib/libdytest.so 
+ 1699  gcc -o remotedytest dynamicmain.c ../dynamiclib/libdytest.so -I../dynamiclib/
+ 1700  ls
+ 1701  ./remotedytest 
+ 1702  gcc -o remotedynamicmain dynamicmain.c ../dynamiclib/libdytest.so -I../dynamiclib/
+ 1703  ls
+ 1704  rm remotedytest 
+ 1705  ls
+ 1706  ldd remotedynamicmain 
+ 1707  ldd remotestaticmain 
+ 1708  gcc -o remotestatic staticmain.c 
+ 1709  gcc -o remotestatic staticmain.c -I../staticlib/
+ 1710  gcc -o remotestatic staticmain.c -L../staticlib/ -lsttest -I../staticlib/
+ 1711  ls
+ 1712  ldd remotestatic
+ 1713  rm remotestatic
+ 1714  ls
+ 1715  gcc -o remotedynamicmain dynamicmain.c ../dynamiclib/libdytest.so -I../dynamiclib/ls
+ 1716  ls
+ 1717  cd ../staticlib/
+ 1718  ls
+ 1719  cd ../dynamiclib/
+ 1720  ls
+ 1721  pluma main.c
+ 1722  ls
+ 1723  gcc -o explicitMaintest explicitMain.c 
+ 1724  gcc -o explicitMaintest explicitMain.c -ldytest
+ 1725  gcc -o explicitMaintest explicitMain.c -L./ -ldytest
+ 1726  gcc -o explicitMaintest explicitMain.c -L./ -ldytest -I./
+ 1727  ls
+ 1728  gcc -o explicitMaintest explicitMain.c -L. -ldytest -I.
+ 1729  pluma explicitMain.c 
+ 1730  gcc -o explicitMaintest explicitMain.c -L. -ldytest -I.
+ 1731  gcc -o explicitMaintest explicitMain.c -L. -ldytest -I. -ldl
+ 1732  ls
+ 1733  ./explicitMaintest 
+ 1734  gcc -o explicitMaintest explicitMain.c -ldl
+ 1735  ls
+ 1736  ./explicitMaintest 
+ 1737  pluma explicitMain.c 
+ 1738  gcc -o explicitMaintest explicitMain.c -ldl
+ 1739  ./explicitMaintest 
+ 1740  ls
+ 1741  cd ..
+ 1742  ls
+ 1743  tree
+ 1744  history
+ 1745  pwd
+ 1746  history >> history
