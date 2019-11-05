@@ -1,0 +1,1 @@
+call.c执行文件运用system和exec簇来进行调用test.c

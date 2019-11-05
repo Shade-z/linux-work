@@ -1,0 +1,3 @@
+valgrind --track-fds=yes --leak-check=full --undef-value-errors=yes ./memtest
+
+gcc longjum2.c -o longjum21 -Wall -O2
