@@ -1,0 +1,4 @@
+执行_exit后会产生test.txt，但是没有内容
+执行exit后会产生test.txt，有内容"hello world"
+./1-3 exit
+./1-3 _exit
