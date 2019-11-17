@@ -21,7 +21,8 @@ int main()
 				err = changeMod_1(filename);//修改文件权限
 				break;
 			case 5:
-				err = viewMod_1(&fd);//查看当前文件的权限
+				err = viewMod_1(filename);//查看当前文件的权限
+				//err = viewMod_1(&fd);//查看当前文件的权限
 				break;
 			case 0:
 			default:

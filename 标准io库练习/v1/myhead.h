@@ -17,4 +17,5 @@ bool createNew_1(int *, char []);
 bool writeTofile_1(const int *);
 bool readFromfile_1(const int *);
 bool changeMod_1(const char []);
-bool viewMod_1(const int*);
+//bool viewMod_1(const int*);
+bool viewMod_1(const char []);
