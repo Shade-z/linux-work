@@ -1,4 +1,47 @@
 #include "myhead.h"
+bool viewMod_1(const char filename[]){
+	bool err = false;
+	struct stat buf;
+	int n;
+	if(filename == NULL){
+		printf("请先创建文件！\n");
+	}else{
+		if(lstat(filename,&buf) == -1)
+		{
+			printf("stat error\n");
+			return -1;
+		}
+		printf("st_mode :%o\n",buf.st_mode);
+		for(n=8;n>=0;n--)
+		{
+			if(buf.st_mode&(1<<n))
+			{
+				switch(n%3)
+				{
+				case 2:
+					printf("r");
+					break;
+				case 1:
+					printf("w");
+					break;
+				case 0:
+					printf("x");
+						break;
+				default:
+					break;
+	 
+				}
+			}
+			else
+			{
+				printf("-");
+			}
+		}
+		printf("\n");
+	}
+	return err;
+}
+/*
 bool viewMod_1(const int *fd){
 	bool err = false;
 	int accmode, val;
@@ -24,6 +67,7 @@ bool viewMod_1(const int *fd){
 		}
 	}
 	return err;
+}*/
 /*
 struct stat buf;
 	if(argc == 1 )
@@ -69,4 +113,3 @@ struct stat buf;
 版权声明：本文为CSDN博主「MrBugYang」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
 原文链接：https://blog.csdn.net/linux_ly/article/details/6681307
 */
-}
