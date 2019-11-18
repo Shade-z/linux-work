@@ -22,6 +22,7 @@ int main(){
 	}
 	if(fputs(buf, fp) == EOF){
 		perror("failed to fputs!\n");
+		fclose(fp);
 		return -1;
 	}
 	//printf("printf:data from line buffer");
@@ -31,5 +32,6 @@ int main(){
 	//_exit(0);
 
 	printf("printf:data from line buffer");
+	fclose(fp);
 	return 0;
 }
