@@ -1,12 +1,12 @@
 #include"head.h"
 #define NUM_THREADS 4
+char msg[20];//这里必须是全局变量才能通过pthread_exit传出数据，或者在join时传入某个变量的地址，然后在处理后pthread_exit传回去
 void* hello(void *t){
 	pthread_t my_tid;
 	struct info *y;
 	int s=0;
-	char msg[20];
 	y=(struct info *)(t);
-	for(int i=0;i<y->n;i++)
+	for(int i=1;i<=y->n;i++)
 		s+=i;
 	my_tid=pthread_self();
 	printf("\tthread %d, my tid=%lx, Hello\n", (int)y->no, my_tid);
