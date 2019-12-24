@@ -14,10 +14,15 @@ int main(int argc, char *argv[]){
 	char buf[MAXDATASIZE];
 	struct hostent *host;
 	struct sockaddr_in serv_addr;
+	char szHost[256];
 	if (argc < 2) {
 		fprintf(stderr,"Please enter the server's hostname!\n");
 		exit(1);
 	}
+ 
+	// 取得本地主机名称
+	gethostname(szHost, 256);
+	printf("%s\n", szHost);
 	if((host=gethostbyname(argv[1]))==NULL) {
 		herror("gethostbyname error！");
 		exit(1);
