@@ -1,11 +1,14 @@
 #include "head.h"
 pthread_rwlock_t rwlock;
+pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
 int g=0;
 void *fun(void *param){
 	int i;
 	pthread_rwlock_rdlock(&rwlock);
 	for(i=0;i<LOOP;i++){
-		g++;
+		pthread_mutex_lock(&mutex);
+        g++;
+        pthread_mutex_unlock(&mutex);
 	}
 	pthread_rwlock_unlock(&rwlock);
 	return NULL;
@@ -32,6 +35,7 @@ int main(){
 		pthread_join(tid[i],NULL);
 	}
 	pthread_rwlock_destroy(&rwlock);
+    pthread_mutex_destroy(&mutex);
 	printf("thread num ----------%d\n",NUM);
 	printf("LOOP per thread  ----------%d\n",LOOP);
 	printf("expect result ----------%d\n",NUM*LOOP);
